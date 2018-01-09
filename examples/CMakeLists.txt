@@ -16,6 +16,9 @@ endif()
 add_executable(hello_c hello.c)
 target_link_libraries(hello_c zf_log)
 
+add_executable(fifo_output fifo_output.c)
+target_link_libraries(fifo_output zf_log)
+
 add_executable(custom_output custom_output.c)
 target_link_libraries(custom_output zf_log)
 
